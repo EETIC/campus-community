@@ -1,0 +1,50 @@
+.block{
+    display: flex;
+    padding: 5em 10em;
+}
+
+.logo{
+    height: 12em;
+    width: 12em;
+    margin: 1em;
+}
+
+.content{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #ff845e;
+    font-size: 200%;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.mats{
+    font-size: 130%;
+    margin: 2em 2em 0px auto;
+}
+
+.ddbutton{
+    background-color: white;
+    color: #ff845e;
+    border: none;
+}
+
+.ddright{
+    height: 1em;
+    width: 1em;
+    filter: invert(57%) sepia(66%) saturate(521%) hue-rotate(323deg) brightness(100%) contrast(105%);
+    padding-bottom: 0.15em;
+    display: inline;
+}
+
+.dddown{
+    height: 1em;
+    width: 1em;
+    filter: invert(57%) sepia(66%) saturate(521%) hue-rotate(323deg) brightness(100%) contrast(105%);
+    padding-bottom: 0.15em;
+    display: none;
+}
