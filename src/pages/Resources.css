@@ -39,12 +39,9 @@
     filter: invert(57%) sepia(66%) saturate(521%) hue-rotate(323deg) brightness(100%) contrast(105%);
     padding-bottom: 0.15em;
     display: inline;
+    transition-duration: 0.5s;
 }
 
-.dddown{
-    height: 1em;
-    width: 1em;
-    filter: invert(57%) sepia(66%) saturate(521%) hue-rotate(323deg) brightness(100%) contrast(105%);
-    padding-bottom: 0.15em;
-    display: none;
+.rotated{
+    transform: rotate(90deg);
 }

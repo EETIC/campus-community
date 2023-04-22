@@ -5,7 +5,6 @@ import Footer from "../components/Footer/Footer";
 
 import python_logo from "../images/python_logo.png";
 import circle_chevron_right from "../images/circle-chevron-right-solid.svg";
-import circle_chevron_down from "../images/circle-chevron-down-solid.svg";
 
 function Resources() {
   let py_desc =
@@ -14,31 +13,27 @@ function Resources() {
   let drop_down_right = (
     <img src={circle_chevron_right} alt="right" className="ddright" />
   );
-  let drop_down_down = (
-    <img src={circle_chevron_down} alt="down" className="dddown" />
-  );
 
   let ddright = document.querySelector(".ddright");
-  let dddown = document.querySelector(".dddown");
 
-  function dropDown () {
-    console.log("hello")
-    if (ddright.style.display == "inline"){
-      ddright.style.display = "none";
-      dddown.style.display = "inline";
-    }
-    else{
-      ddright.style.display = "inline";
-      dddown.style.display = "none";
-    }
+  let dropButton = document.querySelector(".ddbutton");
+  let isRotated = false;
+
+  if (ddright) {
+    dropButton.addEventListener("click", function () {
+      if (!isRotated) {
+        ddright.classList.add("rotated");
+      } else {
+        ddright.classList.remove("rotated");
+      }
+      isRotated = !isRotated;
+      console.log(isRotated);
+    });
   }
 
   return (
     <div>
       <NavBar />
-      {/* <div>
-            <h1>Resources</h1>
-        </div> */}
       <div className="block">
         <div className="logo">
           <img src={python_logo} alt="python-logo" />
@@ -47,7 +42,9 @@ function Resources() {
           <div className="title">Python</div>
           <div className="desc">{py_desc}</div>
           <div className="mats">
-            <button type = "button" onClick={dropDown} className="ddbutton">View Materials {drop_down_right} {drop_down_down}</button>
+            <button type="button" className="ddbutton">
+              View Materials {drop_down_right}
+            </button>
           </div>
         </div>
       </div>
