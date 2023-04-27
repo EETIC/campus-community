@@ -32,7 +32,7 @@ const Main = () => {
                 <br /> Communities
               </h1>
               <div className="reg">
-                <a href="/">
+                <a href="https://forms.gle/i5eUsJk9MLauB1eT6">
                   <div className="reg-con">
                     <p className="register">Register Now</p>
                     <button>
