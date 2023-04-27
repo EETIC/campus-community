@@ -152,21 +152,17 @@ a {
 }
 
 .img-about{
-  outline: #ff845e solid 3px;
-  border-radius: 0.25rem;
-  transition: all 0.3s ease-in-out;
   margin-bottom: 10px;
 }
-.img-about:is(:hover, :focus)
-{
-  outline-offset: 0.25rem;
-}
+
 
 .about img {
   /* margin-bottom: 10px; */
   width: 30vw;
   max-width: 500px;
-  border-radius: 0.25rem;
+  border-radius: 0.35rem;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+
 }
 
 .about-container p {
