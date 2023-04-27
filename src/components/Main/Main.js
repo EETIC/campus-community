@@ -4,10 +4,13 @@ import logo from "../../images/2205_w046_n004_121a_p1_121 1.png";
 import stars from "../../images/stars.png";
 import arrow from "../../images/arrow.png";
 import about1 from "../../images/campus-1.jpg";
-import about2 from "../../images/about2.png";
-import skill2 from "../../images/skill2.png";
-import skill3 from "../../images/skill3.png";
-import skill4 from "../../images/skill4.png";
+import about2 from "../../images/about-2.jpg";
+import skill1 from "../../images/skill-1.png";
+import skill2 from "../../images/skill-2.png";
+import skill3 from "../../images/skill-3.png";
+import skill4 from "../../images/skill-4.png";
+import skill5 from "../../images/skill-5.png";
+
 import CustomizedAccordions from "./Accordian";
 
 const Main = () => {
@@ -49,17 +52,17 @@ const Main = () => {
             <div className="about-container about-cntnr1">
               <div className="about-description">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus nam ea, aliquam totam adipisci perspiciatis eligendi
-                  facilis suscipit excepturi voluptatem! Vel tempora voluptatem,
-                  odit sint dolore iusto corporis aliquam obcaecati nulla nam
-                  praesentium ipsam animi excepturi temporibus consectetur
-                  repellat commodi similique, odio accusamus laboriosam? Odio
-                  quia assumenda praesentium animi quidem!
+                <b>EETI Foundation</b> is a group of youngsters who have ignited their minds to be future innovators,
+                entrepreneurs and tech enthusiasts coming under one platform to share their knowledge and
+                creativity to explore the wonders of technology. Working together achieves greater results than
+                working individually. Our vision is to emerge as a centre of excellence by spreading knowledge onto
+                a much wider group of audience helping them learn the most hyped technologies and skills, to help
+                them build the next big thing. The most noble thing is that all the services provided are ultimately
+                free of cost.
                 </p>
               </div>
               <div className="img-about">
-                <img src={about1} alt="" className="m-hide" />
+                <img src={about1} alt="" className="m-hide " />
               </div>
             </div>
           </div>
@@ -68,7 +71,7 @@ const Main = () => {
             <h2>What are campus communities?</h2>
             <div className="about-container">
               <div className="img-about">
-                <img src={about1} alt="" className="m-hide" />
+                <img src={about2} alt="" className="m-hide" />
               </div>
               <div className="about-description">
                 <p>
@@ -89,51 +92,67 @@ const Main = () => {
           <div className="you-container">
             <div className="skill">
               <h2 className="heading">
-                Skill Development{" "}
+                Supportive environment{" "}
                 <span>
-                  <img className="skill-img" src={skill2} alt="" />
+                  <img className="skill-img" src={skill1} alt="" />
                 </span>
               </h2>
               <p>
-                Improve your communication and management skills by being a part
-                of the largest student network in the nation
+              Being part of a campus community can provide a sense of belonging
+              and support, particularly for students who may be far away from home 
+              or feel isolated.
               </p>
             </div>
 
             <div className="skill">
               <h2 className="heading">
-                Organize Events{" "}
+                Diversity{" "}
                 <span>
                   <img className="skill-img" src={skill2} alt="" />
                 </span>
               </h2>
               <p>
-                Get a chance to conduct events in your college in collaboration
-                with the EETI Foundation
+              Campus communities often attract a diverse group of people, which can lead to
+              exposure to different perspectives and ideas.
               </p>
             </div>
 
             <div className="skill">
               <h2 className="heading">
-                Get verified
+              Networking
                 <span>
                   <img className="skill-img" src={skill3} alt="" />
                 </span>
               </h2>
               <p>
-                Get a certificate of appreciation from The EETI Chairperson on
-                successfully completing the tenure
+              Campus communities offer numerous opportunities for students to
+              connect with professors, alumni, and peers, which can be invaluable 
+              for career development.
               </p>
             </div>
 
             <div className="skill">
               <h2 className="heading">
-                Get Prizes
+              Extracurricular
                 <span>
                   <img className="skill-img" src={skill4} alt="" />
                 </span>
               </h2>
-              <p>Get Prizes and Goodies</p>
+              <p>Campus communities typically offer a wide range of extracurricular
+                activities, which can help students develop skills, pursue interests, 
+                and make friends.
+              </p>
+            </div>
+            <div className="skill">
+              <h2 className="heading">
+              Sense of purpose
+                <span>
+                  <img className="skill-img" src={skill5} alt="" />
+                </span>
+              </h2>
+              <p>Being part of a campus community can provide a sense of purpose and
+                direction, particularly for students who may be unsure of their future goals.
+              </p>
             </div>
           </div>
         </div>

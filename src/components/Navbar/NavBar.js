@@ -11,9 +11,9 @@ function NavBar(){
         <Navbar.Brand
          href="/"
         className="brand"
-        style={{color:"#ff845e"}}
+        style={{color:"black" ,fontSize:"1.8rem"}}
         >
-          EETI Foundation
+          <span style={{color:"#ff845e"}}> EETIC</span>ommunity
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
