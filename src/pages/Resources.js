@@ -122,7 +122,7 @@ function Resources() {
       <NavBar />
       <div className="resources">
         <div className="top">
-          <p className="heading">Resources</p>
+          <h2 className="heading">Resources</h2>
           <input
             type="text"
             placeholder="Search topics"

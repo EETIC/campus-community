@@ -1,44 +1,57 @@
-/* html, body {
-  height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
+*{
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-} */
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
 
 .resources{
   
   display: flex;
   flex-direction: column;
-  margin: 5em 10em;
+  padding: 1rem  4rem;
 }
 
 .top{
   display: flex;
+  gap: 1rem;
+  margin: 2rem 0rem;
 }
 
 #search-bar{
   margin-left: auto;
-  border-radius: 0.3em;
-  padding: 0 0 0 0.3em;
+  border-radius: 5em;
+  padding: 0 1rem;
   height: 2.5em;
   width: 40em;
+  font-size: 1rem;
+  border: 2px solid #ddd;
   align-self: center;
 }
 
 .heading{
   font-size: 2.5em;
+  margin: 0;
 }
 
 .Button{
   padding: .6em 3em;
   font-size: 1em;
   font-weight: 700;
-  border-color: white;
-  border-radius: 0.5em;
+  border: none;
+  border-radius: 1em;
   color: rgb(48, 42, 42);
   background-color: #cfcfcf;
+  margin-bottom: 2rem;
 }
+
 
 .soft{
   margin: 0em 1em 0em 0em;
@@ -51,29 +64,32 @@
 
 .Both{
   height: 100vh;
-  overflow: scroll;
-  margin: 4em 0 0 0;
+  overflow-y: scroll;
+  padding: 1rem  2.5rem;
 }
 
 .software{
   display: flex;
   flex-direction: column;
   margin: 1em 0em 0em 0em;
+  gap: 1.5em;
 }
 
 .hardware{
   display: flex;
   flex-direction: column;
   margin: 1em 0em 0em 0em;
+  gap: 1.5em;
 }
 
 .block{
   border: 1px solid #ddd;
-  border-radius: 0.5em;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05),
+  border-radius: 1em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05),
     0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05),
-    0 16px 16px rgba(0, 0, 0, 0.05);
-    margin: 0.8em 0em 0.8em 0em;
+    0 16px 16px rgba(0, 0, 0, 0.05);*/
+    /* margin: 0.8em 0em 0.8em 0em;  */
 }
 
 
