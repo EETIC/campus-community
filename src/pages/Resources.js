@@ -150,7 +150,7 @@ function Resources() {
                 <div className="block" key={index} data-topic={resource.title}>
                   <div className="content">
                     <div className="title">{resource.title}</div>
-                    <ul>
+                    <ul className="link">
                       {resource.resources.map((link, index) => (
                         <li key={index}>
                           <a
