@@ -1,4 +1,13 @@
+/* html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+} */
+
 .resources{
+  
   display: flex;
   flex-direction: column;
   margin: 5em 10em;
@@ -38,6 +47,12 @@
 #active{
   color: white;
   background-color: #ff845e;
+}
+
+.Both{
+  height: 100vh;
+  overflow: scroll;
+  margin: 4em 0 0 0;
 }
 
 .software{

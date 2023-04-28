@@ -143,54 +143,56 @@ function Resources() {
             Hardware
           </button>
         </div>
-        {activeTab === "software" && (
-          <div className="software">
-            {softResources.map((resource, index) => (
-              <div className="block" key={index} data-topic={resource.title}>
-                <div className="content">
-                  <div className="title">{resource.title}</div>
-                  <ul>
-                    {resource.resources.map((link, index) => (
-                      <li key={index}>
-                        <a
-                          href={link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
+        <div className="Both">
+          {activeTab === "software" && (
+            <div className="software">
+              {softResources.map((resource, index) => (
+                <div className="block" key={index} data-topic={resource.title}>
+                  <div className="content">
+                    <div className="title">{resource.title}</div>
+                    <ul>
+                      {resource.resources.map((link, index) => (
+                        <li key={index}>
+                          <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {link}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        )}
-        {activeTab === "hardware" && (
-          <div className="hardware">
-            {hardResources.map((resource, index) => (
-              <div className="block" key={index} data-topic={resource.title}>
-                <div className="content">
-                  <div className="title">{resource.title}</div>
-                  <ul>
-                    {resource.resources.map((link, index) => (
-                      <li key={index}>
-                        <a
-                          href={link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
+              ))}
+            </div>
+          )}
+          {activeTab === "hardware" && (
+            <div className="hardware">
+              {hardResources.map((resource, index) => (
+                <div className="block" key={index} data-topic={resource.title}>
+                  <div className="content">
+                    <div className="title">{resource.title}</div>
+                    <ul>
+                      {resource.resources.map((link, index) => (
+                        <li key={index}>
+                          <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {link}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )}
+        </div>
       </div>
       <Footer />
     </div>
