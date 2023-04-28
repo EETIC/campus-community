@@ -23,6 +23,10 @@
  
 }
 
+.brand{
+  font-weight: 600;
+}
+
 .Container{
   padding: 10px  5px;
 }

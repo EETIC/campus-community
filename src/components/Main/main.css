@@ -32,7 +32,7 @@ h2 {
 
 .section-1-1 h3 {
   color: #ff845e;
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: min(4vw, 40px);
@@ -40,9 +40,9 @@ h2 {
 }
 
 h1 {
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: min(6vw, 80px) !important;
   /* line-height: 112px; */
   color: rgb(20, 20, 20);
@@ -141,30 +141,28 @@ a {
 
 .about {
   margin-top: 3rem;
-  padding: 0 10px;
+  padding: 0px 10px;
 }
 
 .about h2 {
   color: #ff845e;
+  font-family:'Poppins';
   font-size: min(2.8vw, 30px);
+  font-weight: lighter;
 }
 
 .img-about{
-  outline: #ff845e solid 3px;
-  border-radius: 0.25rem;
-  transition: all 0.3s ease-in-out;
   margin-bottom: 10px;
 }
-.img-about:is(:hover, :focus)
-{
-  outline-offset: 0.25rem;
-}
+
 
 .about img {
   /* margin-bottom: 10px; */
   width: 30vw;
   max-width: 500px;
-  border-radius: 0.25rem;
+  border-radius: 0.35rem;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+
 }
 
 .about-container p {
@@ -178,13 +176,13 @@ a {
   flex-wrap: wrap;
   min-width: auto;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 30px;
 }
 
 .about-description p {
   max-width: 550px;
   /* font-size: min(1.8vw, 20px); */
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /*for -you*/
@@ -192,9 +190,15 @@ a {
 .you-container {
   padding: 0 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr) auto;
   column-gap: 20px;
   row-gap: 20px;
+}
+
+.skill:last-child {
+  grid-column: 1 / -1; /* span across all columns */
+  text-align: center; /* center the content */
 }
 
 @media (max-width: 450px) {
@@ -240,7 +244,7 @@ a {
 
 .you-container p {
   /* font-size: min(1.5vw, 20px); */
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .skill {
@@ -249,11 +253,12 @@ a {
   border: 2px solid #ffb49d;
   border-radius: 10px;
   transition: transform 0.2s;
+
   box-shadow: 0 0 10px #ccc;
 }
 
 .skill:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 
 .skill-img {
