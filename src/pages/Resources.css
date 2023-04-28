@@ -143,6 +143,10 @@ ul{
 /* media query for mobile display */
 @media (max-width: 686px) {
 
+  a{
+    font-size: 12px;
+  }
+
   #search-bar{
     max-width: 100%;
   }
