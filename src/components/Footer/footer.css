@@ -59,6 +59,7 @@
   
   .social-media {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin-bottom: 0px !important;
     /* padding-left: 1rem !important; */

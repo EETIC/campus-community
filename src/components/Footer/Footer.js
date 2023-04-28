@@ -18,7 +18,7 @@ const Footer = () => {
               <img className="f-logo" src={logo1} alt="logo" />
             </a>
           </div>
-          <ul className=" list-inline social-media">
+          <ul className="social-media list-inline social-media">
             <li className="list-inline-item social-media-item">
               <a href="https://www.linkedin.com/company/eetic/">
                 <IoLogoLinkedin size="1.7rem" color="grey" />
