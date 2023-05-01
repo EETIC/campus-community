@@ -8,64 +8,67 @@ function Resources() {
     {
       title: "Python",
       resources: [
-        "https://youtu.be/_uQrJ0TkZlc",
-        "https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n",
+        {head: "Programming with Mosh", link: "https://youtu.be/_uQrJ0TkZlc"},
+        {head: "Python tutorial for beginners", link:"https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n"},
       ],
     },
     {
       title: "Machine Learning",
       resources: [
-        "https://youtu.be/i_LwzRVP7bg",
-        "https://youtube.com/playlist?list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn",
+        {head:"Machine Learning for Everybody", link: "https://youtu.be/i_LwzRVP7bg"},
+        {head:"Machine Learning Tutorial in Python | Edureka", link: "https://youtube.com/playlist?list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn"},
       ],
     },
     {
       title: "Blender",
       resources: [
-        "https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD",
+        {head: "Blender Beginner Donut Tutoria", link: "https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD"},
       ],
     },
-    { title: "MATLAB", resources: ["https://youtu.be/T_ekAD7U-wU"] },
-    { title: "Stock Market", resources: ["https://youtu.be/XDtWSmnDLEs"] },
-    { title: "MS Excel", resources: [] },
+    { title: "MATLAB", resources: [{head: "The Complete MATLAB Course", link: "https://youtu.be/T_ekAD7U-wU"}] },
+    { title: "EV", resources: [{head:"NexLoop" ,link: "https://youtu.be/XDtWSmnDLEs"}] },
+    { title: "Teachable Machine", resources: [{head: "teachable machine", link: "https://www.google.com/url?q=https://teachablemachine.withgoogle.com/train/image&hl=en-GB&sa=D&source=meet"}] },
+    {title: "D Zone chat box", resources: [{head: "d zhone chat box", link: "https://www.google.com/url?q=http://chat.doncjohn.in/&hl=en-GB&sa=D&source=meet"}]},
+    {title: "Code", resources: [{head: "jsdelivr", link: "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"}]},
+    // {title: }
   ];
 
   const hardResources = [
     {
       title: "Raspberry Pi",
-      resources : [ "https://www.raspberrypi.org/documentation/",
-       "https://www.youtube.com/watch?v=gpLzChnG1T8",]
-    },
-    {
-      title: "Arduino",
-      resources : [ "https://www.arduino.cc/",
+      resources : [ {head: "Raspberry Pi documentation",link: "https://www.raspberrypi.org/documentation/"},
+       {head: "head2", link:"https://www.youtube.com/watch?v=gpLzChnG1T8"},]
+    },]
+  //   {
+  //     title: "Arduino",
+  //     resources : [ "https://www.arduino.cc/",
       
-        "https://www.youtube.com/playlist?list=PLliE3o7vC8rzZKcG-IPFz7s_4V0TzTf9X",]
-    },
-    {
-      title: "Robotics",
-      resources : [ "https://www.youtube.com/playlist?list=PLA2C19CC110C995AF",
+  //       "https://www.youtube.com/playlist?list=PLliE3o7vC8rzZKcG-IPFz7s_4V0TzTf9X",]
+  //   },
+  //   {
+  //     title: "Robotics",
+  //     resources : [ "https://www.youtube.com/playlist?list=PLA2C19CC110C995AF",
       
-        "https://www.robotshop.com/community/blog/show/top-5-robotics-websites-blogs",]
-    },
-    {
-      title: "Embedded Systems",
-      resources : [ "https://www.youtube.com/watch?v=BtrVGcFgMmw",
-       "https://www.edx.org/learn/embedded-systems",]
-    },
-    {
-      title: "PCB Design",
+  //       "https://www.robotshop.com/community/blog/show/top-5-robotics-websites-blogs",]
+  //   },
+  //   {
+  //     title: "Embedded Systems",
+  //     resources : [ "https://www.youtube.com/watch?v=BtrVGcFgMmw",
+  //      "https://www.edx.org/learn/embedded-systems",]
+  //   },
+  //   {
+  //     title: "PCB Design",
       
-      resources : [  "https://www.youtube.com/playlist?list=PLy2022BX6EspFAK-F2doZRiL6H6E5xTmA",
-       "https://www.altium.com/resources",]
-    },
-    {
-      title: "3D Printing",
+  //     resources : [  "https://www.youtube.com/playlist?list=PLy2022BX6EspFAK-F2doZRiL6H6E5xTmA",
+  //      "https://www.altium.com/resources",]
+  //   },
+  //   {
+  //     title: "3D Printing",
       
-      resources : [  "https://www.youtube.com/playlist?list=PL8tYSbV_RTHwEokKfWG_yT8Tt_lZIvh1M",
-       "https://www.instructables.com/classes/technology/3d-printing/",]
-    },
-  ];
+  //     resources : [  "https://www.youtube.com/playlist?list=PL8tYSbV_RTHwEokKfWG_yT8Tt_lZIvh1M",
+  //      "https://www.instructables.com/classes/technology/3d-printing/",]
+  //   },
+  // ];
 
   const [activeTab, setActiveTab] = useState("software");
 
@@ -151,14 +154,15 @@ function Resources() {
                   <div className="content">
                     <div className="title">{resource.title}</div>
                     <ul className="link">
-                      {resource.resources.map((link, index) => (
+                      {resource.resources.map((links, index) => (
                         <li key={index}>
+                          "{links.head}: "
                           <a
-                            href={link}
+                            href={links.link}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            {link}
+                            {links.link}
                           </a>
                         </li>
                       ))}
@@ -175,14 +179,15 @@ function Resources() {
                   <div className="content">
                     <div className="title">{resource.title}</div>
                     <ul>
-                      {resource.resources.map((link, index) => (
+                      {resource.resources.map((links, index) => (
                         <li key={index}>
+                          "{links.head}: "
                           <a
-                            href={link}
+                            href={links.link}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            {link}
+                            {links.link}
                           </a>
                         </li>
                       ))}
