@@ -30,7 +30,20 @@ function Resources() {
     { title: "Teachable Machine", resources: [{head: "teachable machine", link: "https://www.google.com/url?q=https://teachablemachine.withgoogle.com/train/image&hl=en-GB&sa=D&source=meet"}] },
     {title: "D Zone chat box", resources: [{head: "d zhone chat box", link: "https://www.google.com/url?q=http://chat.doncjohn.in/&hl=en-GB&sa=D&source=meet"}]},
     {title: "Code", resources: [{head: "jsdelivr", link: "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"}]},
-    // {title: }
+    {title: "Tensorflow", resources: [{head: "Tensorflow user group", link: "https://www.meetup.com/tfug-thrissur/"}]},
+    {title: "Stock market", resources: [{head: "Launching the FREE Stock Market Course India Needed", liink: "https://youtu.be/XDtWSmnDLEs"}]},
+    {title: "MS Excel", resources: [{head: "Intellipaat", link: "https://youtu.be/27dxBp0EgCc"}]},
+    {title: "DevOps", resources: [{head: "Intellipaat", link: "https://youtu.be/JHoy3lDZOfY"}]},
+    {title: "Data Science", resources: [{head: "Intellipaat", link: "https://youtu.be/9l0DAYyJJhI"}]},
+    {title: "javascript", resources: [{head: "Clever Programmer", link: "https://youtube.com/playlist?list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn"}]},
+    {title: "Game programming", resources: [{head: "freecodecamp", link: "https://youtube.com/playlist?list=PLWKjhJtqVAbmqFs83T4W-FZQ9kK983tZC"}]},
+    {title: "Java", resources: [{head: "Apns College", link: "https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop"}]},
+    {title: "Web Development", resources: [{head: "Apna College", link: "https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"}]},
+    {title: "AI", resources: [{head: "Edureka", link: "https://youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI"}]},
+    {title: "Flutter", resources: [{head: "Net Ninja", link: "https://youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"}]},
+    {title: "React", resources: [{head: "Codevolution", link: "https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"}]},
+    {title: "AR", resources: [{head: "freecodecamp", link: "https://youtu.be/WzfDo2Wpxks"}]},
+    {title: ""}
   ];
 
   const hardResources = [
