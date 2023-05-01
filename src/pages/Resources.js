@@ -49,15 +49,34 @@ function Resources() {
   const hardResources = [
     {
       title: "Raspberry Pi",
-      resources : [ {head: "Raspberry Pi documentation",link: "https://www.raspberrypi.org/documentation/"},
-       {head: "head2", link:"https://www.youtube.com/watch?v=gpLzChnG1T8"},]
-    },]
-  //   {
-  //     title: "Arduino",
-  //     resources : [ "https://www.arduino.cc/",
-      
-  //       "https://www.youtube.com/playlist?list=PLliE3o7vC8rzZKcG-IPFz7s_4V0TzTf9X",]
-  //   },
+      resources : [ {head: "Paul McWhorter", link:"https://www.youtube.com/playlist?list=PLGs0VKk2DiYypuwUUM2wxzcI9BJHK4Bfh"},]
+    },
+    {
+      title: "Arduino",
+      resources : [ {head:"Arduino Lessons ",link: "https://www.youtube.com/playlist?list=PLGs0VKk2DiYx6CMdOQR_hmJ2NbB4mZQn-"},]
+    },
+    {
+      title: "Beaglebone Black",
+      resources : [ {head: "Beaglebone Black LESSONS", link: "https://www.youtube.com/playlist?list=PLGs0VKk2DiYyThNvj6VyDFmOnQ8ncXk8b"},]
+    },
+    {
+      title: "NodeMcu",
+      resources : [ {head: "SM training academy", link: "https://www.youtube.com/watch?v=PSo3m7euzo0&list=PL_zvrXFdKgZpCgI1ZgfbJUcuGTKLL8pMT"},]
+    },
+    {
+      title: "Atmel AVR",
+      resources : [ {head: "BuildYourCNC", link: "https://www.youtube.com/playlist?list=PLE72E4CFE73BD1DE1"},
+      {head: "humanHardDrive", link: "https://www.youtube.com/playlist?list=PLA6BB228B08B03EDD"}
+    ]
+    },
+    {
+      title: "ARM Architecture microcontrollers",
+      resources : [ {head: "ARM Microcontroller Programming With the TI Stellaris/Tiva-C Board(s)", link: "https://www.youtube.com/playlist?list=PLmfT_cdP5PYBWYvK_bCdGyBqQEiRzUPeq"},
+      {head:"MSP430 ", link: "https://www.youtube.com/playlist?list=PLRqKd7sGGKMTB5egcnNuR_SJjMgzFntKj"}
+    ]
+    },
+  ]
+  //   
   //   {
   //     title: "Robotics",
   //     resources : [ "https://www.youtube.com/playlist?list=PLA2C19CC110C995AF",
@@ -194,7 +213,7 @@ function Resources() {
                     <ul>
                       {resource.resources.map((links, index) => (
                         <li key={index}>
-                          "{links.head}: "
+                          {links.head} : {" "} 
                           <a
                             href={links.link}
                             target="_blank"
