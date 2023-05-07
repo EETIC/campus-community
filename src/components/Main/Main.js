@@ -95,7 +95,7 @@ const Main = () => {
           <h2>What's in it for you?</h2>
           <div className="you-container">
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
                 Supportive environment{" "}
                 <span>
                   <img className="skill-img" src={skill1} alt="" />
@@ -109,7 +109,7 @@ const Main = () => {
             </div>
 
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
                 Diversity{" "}
                 <span>
                   <img className="skill-img" src={skill2} alt="" />
@@ -122,7 +122,7 @@ const Main = () => {
             </div>
 
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
               Networking
                 <span>
                   <img className="skill-img" src={skill3} alt="" />
@@ -136,7 +136,7 @@ const Main = () => {
             </div>
 
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
               Extracurricular
                 <span>
                   <img className="skill-img" src={skill4} alt="" />
@@ -148,7 +148,7 @@ const Main = () => {
               </p>
             </div>
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
               Sense of purpose
                 <span>
                   <img className="skill-img" src={skill5} alt="" />
