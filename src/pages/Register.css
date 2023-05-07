@@ -90,6 +90,7 @@
     
     .main-reg,.gform{
         max-width: 70vw;
+        height: auto;
     }
-    
+
 }
