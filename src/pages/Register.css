@@ -87,10 +87,11 @@
 
 /* mobile view */
 @media (max-width:600px) {
+
     
     .main-reg,.gform{
         max-width: 70vw;
         height: auto;
+        padding: 2rem 1.5rem;
     }
-
 }
