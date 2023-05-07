@@ -12,8 +12,12 @@ import skill4 from "../../images/skill-4.png";
 import skill5 from "../../images/skill-5.png";
 
 import CustomizedAccordions from "./Accordian";
+import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+
+  const navigate = useNavigate()
+  
   return (
     <div className="main">
       <div>
@@ -32,10 +36,10 @@ const Main = () => {
                 <br /> Communities
               </h1>
               <div className="reg">
-                <a href="https://forms.gle/i5eUsJk9MLauB1eT6">
+                <a href="/register">
                   <div className="reg-con">
-                    <p className="register">Register Now</p>
                     <button>
+                      Register Now
                       <img className="arrow" src={arrow} alt="" />
                     </button>
                   </div>
