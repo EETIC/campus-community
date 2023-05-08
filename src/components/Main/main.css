@@ -5,10 +5,6 @@
   margin: auto;
 }
 
-.pic-1 {
-  width: 100%;
-}
-
 h2 {
   color: #ff845e;
   font-size: min(3.3vw, 35px);
@@ -24,6 +20,29 @@ h2 {
   align-items: flex-start;
   justify-content: space-between;
   gap: 3rem;
+}
+
+.section-1-0 {
+  position: relative;
+  text-align: center;
+}
+
+.pic-1 {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px rgb(20, 20, 20);
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:rgb(20, 20, 20); */
 }
 
 .section-1-1 {
