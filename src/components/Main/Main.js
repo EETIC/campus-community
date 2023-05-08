@@ -15,14 +15,18 @@ import CustomizedAccordions from "./Accordian";
 import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+  const navigate = useNavigate();
 
-  const navigate = useNavigate()
-  
   return (
     <div className="main">
       <div>
         <div className="section-1" id="home">
-          <img className="pic-1" src={logo} alt="pic-1" />
+          <div className="section-1-0">
+            <img className="pic-1" src={logo} alt="pic-1" />
+            <div className="img-text">
+              join us on a journey to inspire and to be inspired
+            </div>
+          </div>
 
           <div className="section-1-1">
             <h3>EETI Foundation</h3>
@@ -56,13 +60,17 @@ const Main = () => {
             <div className="about-container about-cntnr1">
               <div className="about-description">
                 <p>
-                <b>EETI Foundation</b> is a group of youngsters who have ignited their minds to be future innovators,
-                entrepreneurs and tech enthusiasts coming under one platform to share their knowledge and
-                creativity to explore the wonders of technology. Working together achieves greater results than
-                working individually. Our vision is to emerge as a centre of excellence by spreading knowledge onto
-                a much wider group of audience helping them learn the most hyped technologies and skills, to help
-                them build the next big thing. The most noble thing is that all the services provided are ultimately
-                free of cost.
+                  <b>EETI Foundation</b> is a group of youngsters who have
+                  ignited their minds to be future innovators, entrepreneurs and
+                  tech enthusiasts coming under one platform to share their
+                  knowledge and creativity to explore the wonders of technology.
+                  Working together achieves greater results than working
+                  individually. Our vision is to emerge as a centre of
+                  excellence by spreading knowledge onto a much wider group of
+                  audience helping them learn the most hyped technologies and
+                  skills, to help them build the next big thing. The most noble
+                  thing is that all the services provided are ultimately free of
+                  cost.
                 </p>
               </div>
               <div className="img-about">
@@ -102,9 +110,9 @@ const Main = () => {
                 </span>
               </h2>
               <p>
-              Being part of a campus community can provide a sense of belonging
-              and support, particularly for students who may be far away from home 
-              or feel isolated.
+                Being part of a campus community can provide a sense of
+                belonging and support, particularly for students who may be far
+                away from home or feel isolated.
               </p>
             </div>
 
@@ -116,46 +124,52 @@ const Main = () => {
                 </span>
               </h2>
               <p>
-              Campus communities often attract a diverse group of people, which can lead to
-              exposure to different perspectives and ideas.
+                Campus communities often attract a diverse group of people,
+                which can lead to exposure to different perspectives and ideas.
               </p>
             </div>
 
             <div className="skill">
+              <h2 className="heading">Networking</h2>
               <h2 className="skill-heading">
-              Networking
+                Networking
                 <span>
                   <img className="skill-img" src={skill3} alt="" />
                 </span>
               </h2>
               <p>
-              Campus communities offer numerous opportunities for students to
-              connect with professors, alumni, and peers, which can be invaluable 
-              for career development.
+                Campus communities offer numerous opportunities for students to
+                connect with professors, alumni, and peers, which can be
+                invaluable for career development.
               </p>
             </div>
 
             <div className="skill">
+              <h2 className="heading">Extracurricular</h2>
               <h2 className="skill-heading">
-              Extracurricular
+                Extracurricular
                 <span>
                   <img className="skill-img" src={skill4} alt="" />
                 </span>
               </h2>
-              <p>Campus communities typically offer a wide range of extracurricular
-                activities, which can help students develop skills, pursue interests, 
-                and make friends.
+              <p>
+                Campus communities typically offer a wide range of
+                extracurricular activities, which can help students develop
+                skills, pursue interests, and make friends.
               </p>
             </div>
             <div className="skill">
+              <h2 className="heading">Sense of purpose</h2>
               <h2 className="skill-heading">
-              Sense of purpose
+                Sense of purpose
                 <span>
                   <img className="skill-img" src={skill5} alt="" />
                 </span>
               </h2>
-              <p>Being part of a campus community can provide a sense of purpose and
-                direction, particularly for students who may be unsure of their future goals.
+              <p>
+                Being part of a campus community can provide a sense of purpose
+                and direction, particularly for students who may be unsure of
+                their future goals.
               </p>
             </div>
           </div>
