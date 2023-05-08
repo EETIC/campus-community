@@ -12,8 +12,12 @@ import skill4 from "../../images/skill-4.png";
 import skill5 from "../../images/skill-5.png";
 
 import CustomizedAccordions from "./Accordian";
+import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+
+  const navigate = useNavigate()
+  
   return (
     <div className="main">
       <div>
@@ -35,10 +39,10 @@ const Main = () => {
                 <br /> Communities
               </h1>
               <div className="reg">
-                <a href="https://forms.gle/i5eUsJk9MLauB1eT6">
+                <a href="/register">
                   <div className="reg-con">
-                    <p className="register">Register Now</p>
                     <button>
+                      Register Now
                       <img className="arrow" src={arrow} alt="" />
                     </button>
                   </div>
@@ -98,7 +102,7 @@ const Main = () => {
           <h2>What's in it for you?</h2>
           <div className="you-container">
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
                 Supportive environment{" "}
                 <span>
                   <img className="skill-img" src={skill1} alt="" />
@@ -112,7 +116,7 @@ const Main = () => {
             </div>
 
             <div className="skill">
-              <h2 className="heading">
+              <h2 className="skill-heading">
                 Diversity{" "}
                 <span>
                   <img className="skill-img" src={skill2} alt="" />
@@ -125,8 +129,13 @@ const Main = () => {
             </div>
 
             <div className="skill">
+<<<<<<< HEAD
               <h2 className="heading">
                 Networking
+=======
+              <h2 className="skill-heading">
+              Networking
+>>>>>>> 05dc5ede489874627896795430178ca5dffac392
                 <span>
                   <img className="skill-img" src={skill3} alt="" />
                 </span>
@@ -139,8 +148,13 @@ const Main = () => {
             </div>
 
             <div className="skill">
+<<<<<<< HEAD
               <h2 className="heading">
                 Extracurricular
+=======
+              <h2 className="skill-heading">
+              Extracurricular
+>>>>>>> 05dc5ede489874627896795430178ca5dffac392
                 <span>
                   <img className="skill-img" src={skill4} alt="" />
                 </span>
@@ -152,8 +166,13 @@ const Main = () => {
               </p>
             </div>
             <div className="skill">
+<<<<<<< HEAD
               <h2 className="heading">
                 Sense of purpose
+=======
+              <h2 className="skill-heading">
+              Sense of purpose
+>>>>>>> 05dc5ede489874627896795430178ca5dffac392
                 <span>
                   <img className="skill-img" src={skill5} alt="" />
                 </span>

@@ -163,10 +163,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          The EETIF Campus Community at your college will be right place for tech enthusiasts to get 
-          updated with the latest technical skills. 
-          <br />
-          Join EETIF at link 
+          Join EETIF at <a href="/register">link</a>
           <br />
           Welcome aboard!
           </Typography>
