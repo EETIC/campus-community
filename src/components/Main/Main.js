@@ -23,7 +23,7 @@ const Main = () => {
     <div className="">
     <div className="containertop">
             <img src={logo} alt="Your Image" className="top-image" />
-            <div className="toptext">Join us on a journey <br />to <span className="transparent">inspire</span> and to be  <span className="transparent">inspired</span></div>
+            <div className="toptext">Join us on a journey <br />to <span className="transparent">inspire</span> and to be  <span className="transparent">inspired</span>!</div>
           </div>
       <div className="main">
         <div className="section-1" id="home">
@@ -87,19 +87,21 @@ const Main = () => {
           </div>
 
           <div className="about-2">
-            <h2>What are campus communities?</h2>
+            <h2>What are EETIF campus communities?</h2>
             <div className="about-container">
               <div className="img-about">
                 <img src={about2} alt="" className="m-hide" />
               </div>
               <div className="about-description">
                 <p>
-                  Campus communities is a programme encouraging a tech learning
-                  culture on campuses so that students can grow their abilities
-                  and further their careers. Campus communities will help
-                  college students who don't think they're getting enough
-                  exposure to technology or don't have the ideal environment to
-                  study it.
+                The <b>EETIF campus</b> initiative empowers students to succeed in their careers by 
+                building tech communities on campus and providing resources and opportunities. 
+                The program offers a range of activities and access to mentors who are professionals 
+                in the tech industry to help students develop their skills and connect with 
+                like-minded individuals. By creating a supportive environment where students can 
+                learn and grow together, the EETIF campus initiative helps students achieve their 
+                goals. It is a valuable program that helps students build their networks, develop 
+                their skills, and succeed in their career aspirations.
                 </p>
               </div>
             </div>
