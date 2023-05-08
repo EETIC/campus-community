@@ -94,7 +94,7 @@ const Main = () => {
               </div>
               <div className="about-description">
                 <p>
-                The <b>EETIF campus</b> initiative empowers students to succeed in their careers by 
+                The <b>EETI campus</b> initiative empowers students to succeed in their careers by 
                 building tech communities on campus and providing resources and opportunities. 
                 The program offers a range of activities and access to mentors who are professionals 
                 in the tech industry to help students develop their skills and connect with 
