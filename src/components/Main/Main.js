@@ -2,11 +2,11 @@ import React from "react";
 import "./main.css";
 // import logo from "../../images/2205_w046_n004_121a_p1_121 1.png";
 
-import logo from "../../images/slider2.jpeg";
+import about2 from "../../images/slider2.jpeg";
 import stars from "../../images/stars.png";
 import arrow from "../../images/arrow.png";
-import about1 from "../../images/campus-1.jpg";
-import about2 from "../../images/about-2.jpg";
+import logo from "../../images/campus-1.jpg";
+import about1 from "../../images/slider3.jpg";
 import skill1 from "../../images/skill-1.png";
 import skill2 from "../../images/skill-2.png";
 import skill3 from "../../images/skill-3.png";

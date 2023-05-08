@@ -63,7 +63,7 @@ h2 {
   color: white;
   font-weight: 700;
   font-size: 4em;
-  text-shadow: 2px 2px 8px rgb(20, 20, 20);
+  text-shadow: 2px 2px 8px rgba(20, 20, 20,0.75);
   text-align: center;
   z-index: 1;
 }
@@ -82,8 +82,10 @@ h2 {
     -webkit-text-stroke: 1px white;
   }
   .top-image{
-    height: 70vh;
+    /* height: 70vh; */
+    height: auto;
   }
+
 }
 
 
@@ -201,7 +203,8 @@ a {
     -webkit-text-stroke: 0.5px white;
   }
   .top-image{
-    height: 60vh;
+    /* height: 60vh; */
+    height: auto;
   }
 }
 
