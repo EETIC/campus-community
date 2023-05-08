@@ -48,19 +48,21 @@ h2 {
 .top-image {
   display: block;
   width: 100%;
-  height: auto;
-  filter: brightness(70%);
+  height: 85vh;
+  filter: brightness(40%);
+  object-fit: cover;
   z-index: 0;
 }
 
 .toptext {
   position: absolute;
+  width: 80vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 4em;
   text-shadow: 2px 2px 8px rgb(20, 20, 20);
   text-align: center;
   z-index: 1;
@@ -68,7 +70,7 @@ h2 {
 
 .transparent{
   color: transparent;
-      -webkit-text-stroke: 1px white;
+      -webkit-text-stroke: 1.5px white;
       text-shadow: none;
 
 }
@@ -76,8 +78,11 @@ h2 {
 
 @media (max-width:900px){
   .toptext{
-    font-size: 1.75em;
+    font-size: 2.75em;
     -webkit-text-stroke: 1px white;
+  }
+  .top-image{
+    height: 70vh;
   }
 }
 
@@ -191,7 +196,12 @@ a {
     display: none;
   }
   .toptext{
-    font-size: 1em;
+    font-size: 30px;
+    font-weight: 500;
+    -webkit-text-stroke: 0.5px white;
+  }
+  .top-image{
+    height: 60vh;
   }
 }
 

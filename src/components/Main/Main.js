@@ -1,6 +1,8 @@
 import React from "react";
 import "./main.css";
-import logo from "../../images/2205_w046_n004_121a_p1_121 1.png";
+// import logo from "../../images/2205_w046_n004_121a_p1_121 1.png";
+
+import logo from "../../images/slider2.jpeg";
 import stars from "../../images/stars.png";
 import arrow from "../../images/arrow.png";
 import about1 from "../../images/campus-1.jpg";
@@ -18,8 +20,12 @@ const Main = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="main">
-      <div>
+    <div className="">
+    <div className="containertop">
+            <img src={logo} alt="Your Image" className="top-image" />
+            <div className="toptext">Join us on a journey <br />to <span className="transparent">inspire</span> and to be  <span className="transparent">inspired</span></div>
+          </div>
+      <div className="main">
         <div className="section-1" id="home">
           {/* <div className="section-1-0">
             <img className="pic-1" src={logo} alt="pic-1" />
@@ -27,10 +33,7 @@ const Main = () => {
                 join us on a journey to inspire and to be inspired
               </div>
           </div> */}
-          <div className="containertop">
-            <img src={logo} alt="Your Image" className="top-image" />
-            <div className="toptext">Join us on a journey to inspire and to be  <span className="transparent">inspired</span></div>
-          </div>
+          
           
           <div className="section-1-1">
             <h3>EETI Foundation</h3>
