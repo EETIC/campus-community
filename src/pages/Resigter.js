@@ -16,9 +16,9 @@ function Register() {
                         <h6 className="description">
                     To all the tech enthusiasts who are primed to interact 
                     with smarter and passionate individuals who readily share 
-                    their knowledge and experience, here's a series of events 
-                    coming on your way to unveil the engrossing topics before you!!
-                    <br /><br /> Join Us!!!
+                    their knowledge and experience. <br /><br /> To get started and become a part of 
+                    EETI  Campus, please register here..!
+                    
                         </h6>
                         <a href="https://forms.gle/i5eUsJk9MLauB1eT6">
                             <button className="join1" >Register Now</button>
