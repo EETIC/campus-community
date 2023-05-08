@@ -15,16 +15,17 @@ import CustomizedAccordions from "./Accordian";
 import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+  const navigate = useNavigate();
 
-  const navigate = useNavigate()
-  
   return (
     <div className="main">
       <div>
         <div className="section-1" id="home">
           <div className="section-1-0">
             <img className="pic-1" src={logo} alt="pic-1" />
-            <div className="img-text">join us on a journey to inspire and to be inspired</div>
+            <div className="img-text">
+              join us on a journey to inspire and to be inspired
+            </div>
           </div>
 
           <div className="section-1-1">
@@ -129,13 +130,9 @@ const Main = () => {
             </div>
 
             <div className="skill">
-<<<<<<< HEAD
-              <h2 className="heading">
-                Networking
-=======
+              <h2 className="heading">Networking</h2>
               <h2 className="skill-heading">
-              Networking
->>>>>>> 05dc5ede489874627896795430178ca5dffac392
+                Networking
                 <span>
                   <img className="skill-img" src={skill3} alt="" />
                 </span>
@@ -148,13 +145,9 @@ const Main = () => {
             </div>
 
             <div className="skill">
-<<<<<<< HEAD
-              <h2 className="heading">
-                Extracurricular
-=======
+              <h2 className="heading">Extracurricular</h2>
               <h2 className="skill-heading">
-              Extracurricular
->>>>>>> 05dc5ede489874627896795430178ca5dffac392
+                Extracurricular
                 <span>
                   <img className="skill-img" src={skill4} alt="" />
                 </span>
@@ -166,13 +159,9 @@ const Main = () => {
               </p>
             </div>
             <div className="skill">
-<<<<<<< HEAD
-              <h2 className="heading">
-                Sense of purpose
-=======
+              <h2 className="heading">Sense of purpose</h2>
               <h2 className="skill-heading">
-              Sense of purpose
->>>>>>> 05dc5ede489874627896795430178ca5dffac392
+                Sense of purpose
                 <span>
                   <img className="skill-img" src={skill5} alt="" />
                 </span>
