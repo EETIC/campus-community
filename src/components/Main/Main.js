@@ -21,13 +21,17 @@ const Main = () => {
     <div className="main">
       <div>
         <div className="section-1" id="home">
-          <div className="section-1-0">
+          {/* <div className="section-1-0">
             <img className="pic-1" src={logo} alt="pic-1" />
-            <div className="img-text">
-              join us on a journey to inspire and to be inspired
-            </div>
+              <div className="img-text">
+                join us on a journey to inspire and to be inspired
+              </div>
+          </div> */}
+          <div className="containertop">
+            <img src={logo} alt="Your Image" className="top-image" />
+            <div className="toptext">Join us on a journey to inspire and to be  <span className="transparent">inspired</span></div>
           </div>
-
+          
           <div className="section-1-1">
             <h3>EETI Foundation</h3>
 
@@ -130,7 +134,6 @@ const Main = () => {
             </div>
 
             <div className="skill">
-              <h2 className="heading">Networking</h2>
               <h2 className="skill-heading">
                 Networking
                 <span>
@@ -145,7 +148,6 @@ const Main = () => {
             </div>
 
             <div className="skill">
-              <h2 className="heading">Extracurricular</h2>
               <h2 className="skill-heading">
                 Extracurricular
                 <span>
@@ -159,7 +161,6 @@ const Main = () => {
               </p>
             </div>
             <div className="skill">
-              <h2 className="heading">Sense of purpose</h2>
               <h2 className="skill-heading">
                 Sense of purpose
                 <span>

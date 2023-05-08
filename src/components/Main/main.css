@@ -24,30 +24,65 @@ h2 {
 
 .section-1-0 {
   position: relative;
-  text-align: center;
+  width: 100%;
 }
 
 .pic-1 {
-  width: 100%;
+  display: block;
   filter: brightness(70%);
+  width: 100%;
+      height: auto;
 }
 
-.img-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-  font-weight: 700;
-  color: white;
-  text-shadow: 2px 2px rgb(20, 20, 20);
-  /* -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color:rgb(20, 20, 20); */
-}
+
 
 .section-1-1 {
   width: 100%;
 }
+
+.containertop {
+  position: relative;
+  width: 100%;
+}
+
+.top-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: brightness(70%);
+  z-index: 0;
+}
+
+.toptext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-shadow: 2px 2px rgb(20, 20, 20);
+  text-align: center;
+  z-index: 1;
+}
+
+.transparent{
+  color: transparent;
+      -webkit-text-stroke: 2px white;
+      text-shadow: none;
+
+}
+
+
+@media (max-width:900px){
+  .toptext{
+    font-size: 1.75em;
+  }
+}
+
+
+
+
 
 .section-1-1 h3 {
   color: #ff845e;
@@ -134,7 +169,7 @@ a {
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .section-1 {
     height: auto;
   }
@@ -153,6 +188,9 @@ a {
   }
   .Campus > span{
     display: none;
+  }
+  .toptext{
+    font-size: 1em;
   }
 }
 
