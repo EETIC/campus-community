@@ -60,12 +60,12 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>
-            What is EETIF Campus Community?
+            What is EETI Campus Community?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          The EETIF campus initiative is a program that aims to assist college 
+          The EETI campus initiative is a program that aims to assist college 
           students by offering them support and opportunities. This program involves
           creating a community of individuals who share similar interests on campuses
           and also provide students access to a range of resources, activities, and 
@@ -79,11 +79,11 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel2")}
       >
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>What are the Benefits of joining EETIF campus community?</Typography>
+          <Typography>What are the Benefits of joining EETI campus community?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          By becoming a part of the EETIF campus community, you can avail yourself of numerous 
+          By becoming a part of the EETI campus community, you can avail yourself of numerous 
           advantages. These advantages comprise the prospect of acquiring fresh skills, enhancing 
           personal growth and development, getting ready for your upcoming career, forging ties 
           with professionals and the industry, and participating in peer-to-peer learning and 
@@ -97,13 +97,13 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography>
-            How can students get involved with EETIF campus initiative at their campus?
+            How can students get involved with EETI campus initiative at their campus?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          To participate in the EETIF campus initiative at their college, students can 
-          visit the EETIF website and search for a tech community at their institution. 
+          To participate in the EETI campus initiative at their college, students can 
+          visit the EETI website and search for a tech community at their institution. 
           Upon identifying a suitable community, they can reach out to the community 
           leader for more information or attend a community event to learn more about the 
           initiative and how to become a member.
@@ -117,17 +117,17 @@ export default function CustomizedAccordions() {
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography>
           What are some examples of success stories from students who have participated 
-          in the EETIF campus initiative program?
+          in the EETI campus initiative program?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Several students who have participated in the EETIF campus initiative have achieved 
+          Several students who have participated in the EETI campus initiative have achieved 
           success and made significant progress in their careers. These success stories 
           include individuals who have acquired new skills, gained valuable experience, forged 
           meaningful connections with industry professionals, and secured internships or 
           employment opportunities through their involvement in the program.You can check on our 
-          instagram account for the experience they have shared working with EETIF.
+          instagram account for the experience they have shared working with EETI.
 
           </Typography>
         </AccordionDetails>
@@ -138,14 +138,14 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography>
-          What are the activities of EETIF campus community?
+          What are the activities of EETI campus community?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
           We embark on a journey of self-discovery and collective growth with our program that 
           is dedicated to helping students achieve new skills. We provide a yearly plan to each 
-          club, tailored to their specific needs, which serves as a guiding light to enable them 
+          community, tailored to their specific needs, which serves as a guiding light to enable them 
           to flourish. Our approach is centered on our values and seeks to inspire innovation 
           and creativity in every member.
 
@@ -158,7 +158,7 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography>
-          How to join EETIF campus community in your campus?
+          How to join EETI campus community in your campus?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

@@ -87,7 +87,7 @@ const Main = () => {
           </div>
 
           <div className="about-2">
-            <h2>What are EETIF campus communities?</h2>
+            <h2>What are EETI campus communities?</h2>
             <div className="about-container">
               <div className="img-about">
                 <img src={about2} alt="" className="m-hide" />
@@ -99,7 +99,7 @@ const Main = () => {
                 The program offers a range of activities and access to mentors who are professionals 
                 in the tech industry to help students develop their skills and connect with 
                 like-minded individuals. By creating a supportive environment where students can 
-                learn and grow together, the EETIF campus initiative helps students achieve their 
+                learn and grow together, the EETI campus initiative helps students achieve their 
                 goals. It is a valuable program that helps students build their networks, develop 
                 their skills, and succeed in their career aspirations.
                 </p>
@@ -113,7 +113,7 @@ const Main = () => {
           <div className="you-container">
             <div className="skill">
               <h2 className="skill-heading">
-                Supportive environment{" "}
+                Supportive{" "}
                 <span>
                   <img className="skill-img" src={skill1} alt="" />
                 </span>
