@@ -120,8 +120,7 @@ const Main = () => {
               </h2>
               <p>
                 Being part of a campus community can provide a sense of
-                belonging and support, particularly for students who may be far
-                away from home or feel isolated.
+                belonging and support, particularly for students who feel isolated.
               </p>
             </div>
 
