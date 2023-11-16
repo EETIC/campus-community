@@ -31,7 +31,9 @@
   padding: 10px  5px;
 }
 
-
+.logo{
+  height: 50;
+}
 
 .navText {
   font-weight: medium;
