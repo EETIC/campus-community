@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="list-inline-item social-media-item">
-              <a href="https://wa.me/+919746577467">
+              <a href="https://chat.whatsapp.com/LFxXV0QWFgd330aSbZcEqY">
                 <IoLogoWhatsapp size="1.7rem" color="grey" />
               </a>
             </li>

@@ -3,6 +3,7 @@ import "./navbar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from '../../images/campuscommunitylogo.png';
 
 function NavBar(){
   return (
@@ -13,10 +14,12 @@ function NavBar(){
         className="brand"
         style={{color:"black" ,fontSize:"1.8rem"}}
         >
-          <span style={{color:"#ff845e"}}> EETIC</span>ommunity
+          <img width="196"
+              height="100"
+              className="d-inline-block align-top" src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav " className="justify-content-end">
           <Nav className="justify-content-left">
             <Nav.Link href="/#home" className="navText">
               Home
